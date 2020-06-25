@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	{%- include head-page.html -%}
+	<body class="min-vh-100 d-flex flex-column">
+		{%- include navbar-page.html -%} {{ content }}
+		<footer class="front-page-footer d-flex">
+			<div
+				class="container flex-grow-1 d-flex justify-content-center align-items-center"
+			>
+				<div class="w-100 mt-3">
+					<p class="float-right footer-tag-line">
+						Education for the next generation
+					</p>
+					<p>
+						gremloon.io · <a href="/privacy.html">Privacy</a> ·
+						<a href="/imprint.html">Imprint</a>
+					</p>
+				</div>
+			</div>
+		</footer>
+		{%- include cookies.html -%}{%- include footer-scripts.html -%}
+	</body>
+</html>
